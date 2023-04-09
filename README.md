@@ -17,11 +17,14 @@ Para criar um modelo de dados, geralmente dividimos em três partes:
 
 * Modelagem Física: demonstra como os dados são fisicamente armazenados.
     - Normalmente descreve os requisitos de dados para um único projeto ou aplicativo. Às vezes, até mesmo uma parte de um aplicativo.
-    - Pode ser integrado com outros modelos de dados físicos por meio de um repositório de entidades compartilhadas•Normalmente  contém  10-1000  tabelas,  embora  esses  números  sejam  altamente variáveis, dependendo do escopo do modelo de dados.
+    - Pode ser integrado com outros modelos de dados físicos por meio de um repositório de entidades compartilhadas
+    - Normalmente  contém  10-1000  tabelas,  embora  esses  números  sejam  altamente variáveis, dependendo do escopo do modelo de dados.
     - Contém  relacionamentos  entre  tabelas  que  tratam  da  cardinalidade  e  nulidade (opcionalidade) dos relacionamentos.
     - Projetado  e  desenvolvido  para  ser  dependente  de  uma  versão  específica  de  um DBMS, local de armazenamento de dados ou tecnologia.
-    - As colunas terão tipos de dados com precisões e comprimentos atribuídos.•As colunas terão nulidade (opcionalidade) atribuída.
-    - As tabelas e colunas terão definições.•Também  incluirá  outros  objetos  físicos,  como  visualizações,  restrições  de  chave primária,  restrições  de  chave  estrangeira,  índices,  funções  de  segurança, procedimentos de armazenamento, extensões XML, armazenamentos de arquivos, etc.
+    - As colunas terão tipos de dados com precisões e comprimentos atribuídos.
+    - As colunas terão nulidade (opcionalidade) atribuída.
+    - As tabelas e colunas terão definições.
+    - Também  incluirá  outros  objetos  físicos,  como  visualizações,  restrições  de  chave primária,  restrições  de  chave  estrangeira,  índices,  funções  de  segurança, procedimentos de armazenamento, extensões XML, armazenamentos de arquivos, etc.
     - O  diagrama  de  um  modelo físico de  dados  pode  mostrar  apenas  uma  pequena porcentagem dos metadados contidos no modelo.
 
 Não é obrigatório criar os três, porém é uma boa prática.
