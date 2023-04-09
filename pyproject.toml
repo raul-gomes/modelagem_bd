@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "modelagens-bd"
+version = "0.1.0"
+description = ""
+authors = ["raul-gomes <rsgomes86@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "modelagens_bd"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
